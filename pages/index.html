@@ -81,16 +81,21 @@
       </div>
     </section>
 
-    <!-- Map Section
-    TODO: Edit section with deprecated Map section code along with necessary edits -->
-    <section id="download" class="download-section content-section text-center">
-      <div class="container">
-        <div class="col-lg-8 mx-auto">
-          <h2>Map section</h2>
-          <p>Coming soon</p>
-        </div>
-      </div>
-    </section>
+    <!-- Map Section -->
+	<section id="download" >
+		<div id="map"></div>
+	    <script>
+           function initMap() {
+           // Create a map object and specify the DOM element for display.
+           var map = new google.maps.Map(document.getElementById('map'), {
+               center: {lat: 30.2241, lng: -92.0198},
+               zoom: 10
+            });
+        }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxUjWUdqDIgQqQMoXVJ94N0X0wTt0Cco8&callback=initMap"
+    async defer></script>
 
     <!-- FAQ Section
     TODO: Add FAQ and their answers -->
@@ -104,11 +109,7 @@
         </div>
       </div>
     </section>
-
-    <!-- Deprecated Map Section
-    TODO: Move and configure so that it is working to Map section -->
-    <div id="map"></div>
-
+	
     <!-- Footer
     TODO: Figure out copyright information or if we're going to include this -->
     <footer>
@@ -124,10 +125,6 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
-    TODO: Configure with correct API key -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
