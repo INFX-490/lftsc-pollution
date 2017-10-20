@@ -94,6 +94,35 @@ a {
         #mainNav .nav-link.active:hover {
           color: white; } }
 
+		  
+#contact p {
+text-align:left;
+border-radius:5px;
+padding:10px;
+border:2px solid #383838;
+background-color:#F0F0F0;
+color:black;
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.91);
+}
+
+#contact a {
+color:red;
+}
+
+#contact a:hover {
+color:black;
+}
+
+#about p {
+border-radius:5px;
+padding:10px;
+border:2px solid #383838;
+background-color:#F0F0F0;
+color:black;
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.91);
+}
+		  
+		  
 .masthead {
   display: table;
   width: 100%;
