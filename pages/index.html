@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,158 +21,143 @@
     <!-- Custom style -->
     <link href="css/main.min.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body id="page-top">
+<body id="page-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Lafayette Smart City Initiative</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Lafayette Smart City Initiative</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Map</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#feedback">Feedback</a>
-            </li>
-          </ul>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#map">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#feedback">Feedback</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
 
     <!-- Intro Header -->
     <header class="masthead">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading">Lafayette Pollution Guide</h1>
-              <p class="intro-text">A one stop shop for Lafayette, Louisiana air quality details.</p>
-              <a href="#about" class="btn btn-circle js-scroll-trigger">
-                <i class="fa fa-angle-double-down animated"></i>
-              </a>
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 class="brand-heading">Lafayette Pollution Guide</h1>
+                        <p class="intro-text">A one stop shop for Lafayette, Louisiana air quality details.</p>
+                        <a href="#about" class="btn btn-circle js-scroll-trigger">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </header>
 
     <!-- About Section -->
     <section id="about" class="about-section content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>About Lafayette Pollution Guide</h2>
-			<p>Lafayette Pollution Guide is a collaboration between CGI Federal and students of UL Lafayette to encourage Smart City interactions by utilitizing the CajunCodeFest Open Data Portal. 
-			The Lafayette Pollution Guide web application brings awareness to the air quality in the Lafayette, Louisiana community. 
-			Data is shown through the integration of the open pollution data and the map below to provide users with a sound knowledge base about the air pollution in Lafayette.
-			The Open Data Portal is the source of our information which is home to a multitude of data categories. The portal pulls it's information from the Lafayette City-Parish Consilidated Governement and other Lafayette Parish sources as well as State and Federal sources.
-			The overall goal of this project is to encourage the distribution of open data from federal, state and local governements, so citizens, researchers and businesses can explore the data and create new innovative applications.</p>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>About Lafayette Pollution Guide</h2>
+                    <p>Lafayette Pollution Guide is a collaboration between CGI Federal and students of UL Lafayette to encourage Smart City interactions by utilitizing the CajunCodeFest Open Data Portal. The Lafayette Pollution Guide web application brings awareness to the air quality in the Lafayette, Louisiana community. Data is shown through the integration of the open pollution data and the map below to provide users with a sound knowledge base about the air pollution in Lafayette. The Open Data Portal is the source of our information which is home to a multitude of data categories. The portal pulls it's information from the Lafayette City-Parish Consilidated Governement and other Lafayette Parish sources as well as State and Federal sources. The overall goal of this project is to encourage the distribution of open data from federal, state and local governements, so citizens, researchers and businesses can explore the data and create new innovative applications.</p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Map Section -->
-	<section id="download" >
-		<div id="map"></div>
-	    <script>
-           function initMap() {
-           // Create a map object and specify the DOM element for display.
-           var map = new google.maps.Map(document.getElementById('map'), {
-               center: {lat: 30.2241, lng: -92.0198},
-               zoom: 10
-            });
-			
-			
-		
-     }
-		
-		
-
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxUjWUdqDIgQqQMoXVJ94N0X0wTt0Cco8&callback=initMap&libraries=visualization"
-    async defer></script>
+    <section id="map">
+        <script>
+            function initMap() {
+               // Create a map object and specify the DOM element for display.
+               var map = new google.maps.Map(document.getElementById('map'), {
+                   center: {lat: 30.2241, lng: -92.0198},
+                   zoom: 10
+                });
+                }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxUjWUdqDIgQqQMoXVJ94N0X0wTt0Cco8&callback=initMap&libraries=visualization" async defer></script>
+    </section>
 
     <!-- FAQ Section -->
-    <section id="contact" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>FAQ Section</h2>
-            <p><b>Q: What is air pollution?</b>
-			<br>
-				    A: Air pollution is the presence of harmful or toxic chemicals and compounds in the air that are at levels that can be detrimental to one's health.
-					</p>
-					<p><b>
+    <section id="faq" class="faq-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>FAQ Section</h2>
+                    <p><b>Q: What is air pollution?</b>
+                        <br> A: Air pollution is the presence of harmful or toxic chemicals and compounds in the air that are at levels that can be detrimental to one's health.
+                    </p>
+                    <p><b>
 					Q: What kinds of air pollution exist?</b>
-					<br>
-					A: The most common air pollutants include nitrogen dioxide (NO2), ozone (O3), sulfur dioxide (SO2), particulate matter (PM), carbon monoxide (CO), and lead (Pb).
-					</p>
-					<p><b>
+                        <br> A: The most common air pollutants include nitrogen dioxide (NO2), ozone (O3), sulfur dioxide (SO2), particulate matter (PM), carbon monoxide (CO), and lead (Pb).
+                    </p>
+                    <p><b>
 					Q: What are the causes of air pollution?</b>
-					<br>
-					A: Human activity is the leading cause of air pollution. These activities include transportaion, industrial work, mining, etc. Secondary causes include natural phenomenons such as volcanic eruptions and wild fires though these are rarer and cause significantly less harm to the environment than what humans contribute on a daily basis.
-					</p>
-					<p><b>
+                        <br> A: Human activity is the leading cause of air pollution. These activities include transportaion, industrial work, mining, etc. Secondary causes include natural phenomenons such as volcanic eruptions and wild fires though these are rarer and cause significantly less harm to the environment than what humans contribute on a daily basis.
+                    </p>
+                    <p><b>
 					Q: What effects on human health does air pollution have?</b>
-					<br>
-					A: As the level of exposure and toxicity of pollutants vary, so do the potential harmful effects on humans. These effects can be as simple as coughing and skin irritation, but can also lead to more severe diseases such as cancer.
-					</p>
-					<p><b>
+                        <br> A: As the level of exposure and toxicity of pollutants vary, so do the potential harmful effects on humans. These effects can be as simple as coughing and skin irritation, but can also lead to more severe diseases such as cancer.
+                    </p>
+                    <p><b>
 					Q: How can air pollution be mitigated?</b>
-					<br>
-					A: Some methods include: 
-						<br>- Conserving energy through energy efficient light bulbs and appliances.
-						<br>- Minimizing gas usage through public transportation, carpools, biking, or walking.
-						<br>- Utilizing environmentally friendly cleaners, paints, and other chemicals.
-					</p>
-					<p><b>
+                        <br> A: Some methods include:
+                        <br>- Conserving energy through energy efficient light bulbs and appliances.
+                        <br>- Minimizing gas usage through public transportation, carpools, biking, or walking.
+                        <br>- Utilizing environmentally friendly cleaners, paints, and other chemicals.
+                    </p>
+                    <p><b>
 					Q: What is the source of our data?</b>
-					<br>
-					A: The CajunCodeFest Open Data Portal, created for the 2017 CajunCodeFest event, hosts data from Lafayette City-Parish Consolidated Government, State and Federal sources, as well as Lafayette Parish sources.
-					</p>
-					<p><b>
+                        <br> A: The CajunCodeFest Open Data Portal, created for the 2017 CajunCodeFest event, hosts data from Lafayette City-Parish Consolidated Government, State and Federal sources, as well as Lafayette Parish sources.
+                    </p>
+                    <p><b>
 					Q: Where can I find more information about air pollution?</b>
-					<br>
-					A: You can find more extensive descriptions and research on air pollution <a href="https://www.epa.gov/criteria-air-pollutants" target="_blank">here</a>.
-			</p>
-          </div>
+                        <br> A: You can find more extensive descriptions and research on air pollution <a href="https://www.epa.gov/criteria-air-pollutants" target="_blank">here</a>.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!--Feedback section
       TODO: Add feedback information to the site -->
-      <section id="feedback" class="feedback-section content-section text-center">
-          <div class="container">
+    <section id="feedback" class="feedback-section content-section text-center">
+        <div class="container">
             <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <h2>Feedback</h2>
-                <p>Thank you for providing your feedback.</p>
-              </div>
+                <div class="col-lg-8 mx-auto">
+                    <h2>Feedback</h2>
+                    <p>Thank you for providing your feedback.</p>
+                </div>
             </div>
-          </div>
-        </section>
-	
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer>
-      <div class="container text-center">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Back to Top</a>
-        <p>Created by UL Lafayette Informatics Program in collaboration with CGI Federal</p>
-      </div>
+        <div class="container text-center">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Back to Top</a>
+            <p>Created by UL Lafayette Informatics Program in collaboration with CGI Federal</p>
+        </div>
     </footer>
 
     <!-- Bootstrap core JavaScript -->
@@ -186,6 +171,6 @@
     <!-- Custom scripts -->
     <script src="js/main.min.js"></script>
 
-  </body>
+</body>
 
 </html>
