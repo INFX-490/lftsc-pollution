@@ -131,6 +131,23 @@ a:hover {
   color: black;
 }
 
+#charts p {
+  text-align: left;
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid #383838;
+  background-color: #F0F0F0;
+  color: black;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.91);
+}
+
+#charts a {
+  color: red;
+}
+#charts a:hover {
+  color: black;
+}
+
 #about p {
   border-radius: 5px;
   padding: 10px;
@@ -203,6 +220,11 @@ a:hover {
   padding-bottom: 150px;
 }
 
+.charts-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 #map {
   width: 80%;
   height: 370px;
@@ -213,6 +235,11 @@ a:hover {
   .faq-section {
       padding-top: 200px;
       padding-bottom: 200px;
+  }
+
+  .charts-section {
+      padding-top: 200px;
+      padding-bottom: 150px;
   }
 
   #map {
