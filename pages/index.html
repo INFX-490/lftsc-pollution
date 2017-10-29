@@ -20,7 +20,30 @@
 
     <!-- Custom style -->
     <link href="css/main.min.css" rel="stylesheet">
+	
+	<!--Esri scripts-->
+	<link rel="stylesheet" href="https://js.arcgis.com/4.5/esri/css/main.css">
+	<script src="https://js.arcgis.com/4.5/"></script>
+	
+	<script>
+          require([
+  "esri/Map",
+  "esri/views/MapView",
+  "dojo/domReady!"
+], function(Map, MapView) {
+  var map = new Map({
+    basemap: "streets"
+  });
 
+  var view = new MapView({
+    container: "map",  // Reference to the DOM node that will contain the view
+    map: map               // References the map object created in step 3
+  });
+  view.center = [-92.0198, 30.2241];
+  view.zoom = 9;
+});
+
+    </script>
 </head>
 
 <body id="page-top">
@@ -89,16 +112,6 @@
 
     <!-- Map Section -->
     <section id="map">
-        <script>
-            function initMap() {
-               // Create a map object and specify the DOM element for display.
-               var map = new google.maps.Map(document.getElementById('map'), {
-                   center: {lat: 30.2241, lng: -92.0198},
-                   zoom: 10
-                });
-                }
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxUjWUdqDIgQqQMoXVJ94N0X0wTt0Cco8&callback=initMap&libraries=visualization" async defer></script>
     </section>
 
     <!-- Charts Section -->
