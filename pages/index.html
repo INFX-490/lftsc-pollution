@@ -42,7 +42,7 @@
                         <a class="nav-link js-scroll-trigger" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="map.html">Map</a>
+                        <a class="nav-link js-scroll-trigger" href="#map">Map</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#charts">Charts</a>
@@ -89,16 +89,16 @@
 
     <!-- Map Section -->
     <section id="map">
-        <script>
-            function initMap() {
-               // Create a map object and specify the DOM element for display.
-               var map = new google.maps.Map(document.getElementById('map'), {
-                   center: {lat: 30.2241, lng: -92.0198},
-                   zoom: 10
-                });
-                }
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxUjWUdqDIgQqQMoXVJ94N0X0wTt0Cco8&callback=initMap&libraries=visualization" async defer></script>
+	<div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Map</h2>
+                     <p>Click here for the <a href="map.html">map</a>.</p>
+                </div>
+            </div>
+        </div>
+        
+		
     </section>
 
     <!-- Charts Section -->
