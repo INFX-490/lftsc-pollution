@@ -116,13 +116,9 @@ a:hover {
 
 #faq p {
   text-align: left;
-  border-radius: 5px;
   padding: 10px;
-  border: 2px solid #383838;
-  background-color: #F0F0F0;
-  color: black;
-  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.91);
-}
+  color: #ddea14;
+} 
 
 #faq a {
   color: red;
@@ -151,10 +147,7 @@ a:hover {
 #about p {
   border-radius: 5px;
   padding: 10px;
-  border: 2px solid #383838;
-  background-color: #F0F0F0;
-  color: black;
-  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.91);
+  color: #ddea14;
 }
 
 .masthead {
