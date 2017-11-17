@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('pages'));
 
 app.get('/', function(request, response) {
-    response.render('index');
+    response.render('pages/index');
 });
 
 app.listen(app.get('port'), function() {
