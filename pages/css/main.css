@@ -200,25 +200,14 @@ min-height:90%;
   }
 }
 
-.btn-circle {
-  font-size: 26px;
-  width: 55px;
-  height: 55px;
-  margin-top: 15px;
-  line-height: 38px;
+.btn-lg {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
-  color: #bfb728;
-  border: 2px solid #bfb728;
-  border-radius: 100% !important;
-  background: rgb(5, 77, 5);
 }
-.btn-circle:focus,
-.btn-circle:hover {
-  color: rgb(5, 77, 5);
+.btn-lg:focus,
+.btn-lg:hover {
   outline: none;
-  background: #bfb728;
 }
 
 .faq-section {
@@ -261,39 +250,6 @@ min-height:90%;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
-  border-radius: 0;
-}
-
-.btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
-  background-color: transparent;
-}
-.btn-default:focus,
-.btn-default:hover {
-  color: black;
-  border: 1px solid #42DCA3;
-  outline: none;
-  background-color: #42DCA3;
-}
-
-ul.banner-social-buttons {
-  margin-top: 0;
-}
-@media (max-width: 1199px) {
-  ul.banner-social-buttons {
-      margin-top: 15px;
-  }
-}
-@media (max-width: 767px) {
-  ul.banner-social-buttons li {
-      display: block;
-      margin-bottom: 20px;
-      padding: 0;
-  }
-  ul.banner-social-buttons li:last-child {
-      margin-bottom: 0;
-  }
 }
 
 footer {
