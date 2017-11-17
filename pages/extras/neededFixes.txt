@@ -1,0 +1,47 @@
+MUST BE DONE BEFORE PRESENTED TO CGI
+
+Easier Stuff:
+
+*fix hover over; should not be black but a grey-ish, silver color
+
+*fix back to top and scroll button not working after initial click
+
+*decide if orange color is necessary
+
+*fix mobile map and menu formatting
+
+*lower initial heading on front page slightly to be in the darker areas of the picture; instead of on the border between the sky
+
+*feedback page is still not functional
+
+*cleanup faq and about texts descriptions and information
+
+*retrieve better pictures for charts on charts page; currently not consistent in size, with weird artifact borders on top left side
+
+*description on charts page to describe purpose and concept
+
+*Better formatting for feedback page
+
+*Back-to-top button doesn't work at all on index.html
+
+*fix feedback button; move to bottom of page and remove from navbar?
+
+*layer charts on charts page better; side-by-side?
+
+*fix charts on charts page formatting; do we want the border box?
+
+*short description above map to tell users what it is?
+
+*does about page need something more? Image? border around boxes?
+
+*Add back in main.min.css? Remove altogether?
+
+
+Harder Stuff:
+
+*Get node.js "ejs" working to allow for partial header/footer files to remove repeated code; attempted code at this in LFTSC-59 repo
+
+*Include vendor/js dependencies in node.js so that files no longer need to be included in git repo
+
+
+Anything else?
