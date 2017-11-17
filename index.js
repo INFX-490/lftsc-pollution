@@ -8,8 +8,14 @@ app.use(express.static(__dirname + '/views/partials'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
+// index page
 app.get('/', function(request, response) {
     response.render('pages/index');
+});
+
+// about page 
+app.get('/about', function(request, response) {
+    response.render('pages/about');
 });
 
 app.listen(app.get('port'), function() {
