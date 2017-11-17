@@ -39,19 +39,16 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+                        <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                        <a class="nav-link js-scroll-trigger" href="about.html#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#map">Map</a>
+                        <a class="nav-link js-scroll-trigger" href="charts.html#charts">Charts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#charts">Charts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
+                        <a class="nav-link js-scroll-trigger" href="faq.html#faq">FAQ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#feedback">Feedback</a>
@@ -61,49 +58,25 @@
         </div>
     </nav>
 
-    <!-- Intro Header -->
-    <header class="masthead">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h1 class="brand-heading">Lafayette Pollution Guide</h1>
-                        <p class="intro-text">A one stop shop for Lafayette, Louisiana air quality details.</p>
-                        <a href="#about" class="btn btn-circle js-scroll-trigger">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
+    <!--Feedback section
+      TODO: Make functional -->
+    <section id="feedback" class="feedback-section content-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Feedback</h2>
+                    <form action="/lafayettepollutionguide.us" id="usrform">
+                        Name: <input type="text" name="usrname"> Last Name: <input type="text" name="LastName"> Email Address: <input type="text" name="EmailAdress">
+                        <input type="submit">
+                    </form>
+                    <br>
+                    <textarea rows="20" cols="60" name="comment" form="usrform">
+                      Enter your feedback here....</textarea>
+
+                    <p>Please provide your feedback to our site.</p>
+                    <p>Thank you for providing your feedback.</p>
                 </div>
             </div>
-        </div>
-    </header>
-
-    <!-- Map Section -->
-    <section id="map">
-        <!--TODO: Remove from here and add to main.css and minify into main.min.css -->
-        <style>
-            .embed-container {
-                position: relative;
-                padding-bottom: 80%;
-                height: 0;
-                max-width: 100%;
-              }
-              .embed-container iframe, .embed-container object, .embed-container iframe {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 75%;
-              }
-              small {
-                position: absolute;
-                z-index: 40;
-                bottom: 0;
-                margin-bottom: -15px;
-              }
-        </style>
-        <div class="embed-container">
-            <iframe width="100%" height="800px" src="https://ullragincajuns.maps.arcgis.com/apps/MapSeries/index.html?appid=aed8b848a1b04854b405af702c16ec28" frameborder="0" scrolling="no"></iframe>
         </div>
     </section>
 

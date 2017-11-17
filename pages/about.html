@@ -39,71 +39,36 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+                        <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#map">Map</a>
+                        <a class="nav-link js-scroll-trigger" href="charts.html#charts">Charts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#charts">Charts</a>
+                        <a class="nav-link js-scroll-trigger" href="faq.html#faq">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#feedback">Feedback</a>
+                        <a class="nav-link js-scroll-trigger" href="feedback.html#feedback">Feedback</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Intro Header -->
-    <header class="masthead">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h1 class="brand-heading">Lafayette Pollution Guide</h1>
-                        <p class="intro-text">A one stop shop for Lafayette, Louisiana air quality details.</p>
-                        <a href="#about" class="btn btn-circle js-scroll-trigger">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
+    <!-- About Section -->
+    <section id="about" class="about-section content-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>About Lafayette Pollution Guide</h2>
+                    <p>Lafayette Pollution Guide is a collaboration between CGI Federal and students of UL Lafayette to encourage Smart City interactions by utilitizing the CajunCodeFest Open Data Portal. The Lafayette Pollution Guide web application brings awareness to the air quality in the Lafayette, Louisiana community. Data is shown through the integration of the open pollution data and the map below to provide users with a sound knowledge base about the air pollution in Lafayette.
+                        <br><br>The Open Data Portal is the source of our information which is home to a multitude of data categories. The portal pulls it's information from the Lafayette City-Parish Consilidated Governement and other Lafayette Parish sources as well as State and Federal sources. The overall goal of this project is to encourage the distribution of open data from federal, state and local governements, so citizens, researchers and businesses can explore the data and create new innovative applications.
+                    </p>
                 </div>
             </div>
-        </div>
-    </header>
-
-    <!-- Map Section -->
-    <section id="map">
-        <!--TODO: Remove from here and add to main.css and minify into main.min.css -->
-        <style>
-            .embed-container {
-                position: relative;
-                padding-bottom: 80%;
-                height: 0;
-                max-width: 100%;
-              }
-              .embed-container iframe, .embed-container object, .embed-container iframe {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 75%;
-              }
-              small {
-                position: absolute;
-                z-index: 40;
-                bottom: 0;
-                margin-bottom: -15px;
-              }
-        </style>
-        <div class="embed-container">
-            <iframe width="100%" height="800px" src="https://ullragincajuns.maps.arcgis.com/apps/MapSeries/index.html?appid=aed8b848a1b04854b405af702c16ec28" frameborder="0" scrolling="no"></iframe>
         </div>
     </section>
 
