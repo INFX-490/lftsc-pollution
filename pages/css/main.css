@@ -1,13 +1,12 @@
 /*!
  * Stylesheet for lftsc-pollution-guide
- * TODO: Clean up file; Fix header so it's not transparent
  */
  body {
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: relative;
   width: 100%;
   height: 100%;
-  color: #bfb728;
+  color: #FFA500;
   background-color: #fff;
 }
 
@@ -69,15 +68,12 @@ a:hover {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   text-transform: uppercase;
-  border-bottom: 1px solid #bfb728;
   background-color: rgb(49, 162, 49);
   box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.21);
 }
 #mainNav .navbar-toggler {
   font-size: 14px;
   padding: 11px;
-  color: rgb(5, 77, 5);
-  border: 1px solid rgb(5, 77, 5);
 }
 #mainNav .navbar-brand {
   font-weight: 700;
@@ -125,29 +121,14 @@ a:hover {
 #faq p {
   text-align: left;
   padding: 10px;
-  color: #bfb728;
-} 
-
-#faq a {
-  color: red;
-}
-#faq a:hover {
-  color: black;
+  color: #FFA500;
 }
 
 #charts p {
-  text-align: left;
   border-radius: 5px;
   padding: 10px;
   border: 2px solid #383838;
-  color: black;
   box-shadow: 0 3px 5px 0 rgba(0,0,0,0.91);
-}
-
-#charts a {
-}
-#charts a:hover {
-  outline: none;
 }
 
 #about {
@@ -157,7 +138,7 @@ min-height:90%;
 #about p {
   border-radius: 5px;
   padding: 10px;
-  color: #bfb728;
+  color: #FFA500;
 }
 
 .masthead {
