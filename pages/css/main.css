@@ -140,16 +140,14 @@ a:hover {
   border-radius: 5px;
   padding: 10px;
   border: 2px solid #383838;
-  background-color: rgb(5, 77, 5);
   color: black;
   box-shadow: 0 3px 5px 0 rgba(0,0,0,0.91);
 }
 
 #charts a {
-  color: red;
 }
 #charts a:hover {
-  color: black;
+  outline: none;
 }
 
 #about {
