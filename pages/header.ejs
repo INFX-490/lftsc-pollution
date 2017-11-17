@@ -24,27 +24,6 @@
     <!--Esri scripts-->
     <link rel="stylesheet" href="https://js.arcgis.com/4.5/esri/css/main.css">
     <script src="https://js.arcgis.com/4.5/"></script>
-    <!--
-	<script>
-          require([
-  "esri/Map",
-  "esri/views/MapView",
-  "dojo/domReady!"
-], function(Map, MapView) {
-  var map = new Map({
-    basemap: "streets"
-  });
-
-  var view = new MapView({
-    container: "map",  // Reference to the DOM node that will contain the view
-    map: map               // References the map object created in step 3
-  });
-  view.center = [-92.0198, 30.2241];
-  view.zoom = 9;
-});
-
-    </script>
-	-->
 </head>
 
 <body id="page-top">
@@ -60,13 +39,13 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">Home</a>
+                        <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="about#about">About</a>
+                        <a class="nav-link js-scroll-trigger" href="about.html#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#map">Map</a>
+                        <a class="nav-link js-scroll-trigger" href="map.html#map">Map</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="charts.html#charts">Charts</a>
@@ -98,50 +77,3 @@
             </div>
         </div>
     </header>
-
-    <!-- Map Section -->
-    <section id="map">
-        <!--TODO: Tried to add to CSS, would not work; when done with "presentation" story, minify or get working in CSS -->
-        <style>
-            .embed-container {
-                position: relative;
-                padding-bottom: 80%;
-                height: 0;
-                max-width: 100%;
-              }
-              .embed-container iframe, .embed-container object, .embed-container iframe {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 75%;
-              }
-              small {
-                position: absolute;
-                z-index: 40;
-                bottom: 0;
-                margin-bottom: -15px;
-              }
-        </style>
-		<div class="embed-container">
-		<iframe width="100%" height="800px" src="https://ullragincajuns.maps.arcgis.com/apps/MapSeries/index.html?appid=aed8b848a1b04854b405af702c16ec28" frameborder="0" scrolling="no"></iframe>
-		</div>
-	</section>
-	
-
-
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts -->
-    <script src="js/main.min.js"></script>
-
-</body>
-
-</html>

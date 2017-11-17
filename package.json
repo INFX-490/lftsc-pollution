@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/INFX-490/LFTSC#readme",
   "dependencies": {
+    "ejs": "^1.0.0",
     "express": "^4.15.4"
   },
   "keywords": [
