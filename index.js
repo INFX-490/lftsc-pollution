@@ -6,8 +6,6 @@ app.set('port', (process.env.PORT || 5000));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-app.use(express.static('pages'));
-
 app.get('/', function(request, response) {
     response.render('pages/index');
 });
