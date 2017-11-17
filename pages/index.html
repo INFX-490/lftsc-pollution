@@ -19,7 +19,7 @@
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 
     <!-- Custom style -->
-    <link href="css/main.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
     <!--Esri scripts-->
     <link rel="stylesheet" href="https://js.arcgis.com/4.5/esri/css/main.css">
@@ -66,7 +66,7 @@
                     <div class="col-lg-8 mx-auto">
                         <h1 class="brand-heading">Lafayette Pollution Guide</h1>
                         <p class="intro-text">A one stop shop for Lafayette, Louisiana air quality details.</p>
-                        <a href="#about" class="btn btn-circle js-scroll-trigger">
+                        <a href="#map" class="btn btn-circle js-scroll-trigger">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
@@ -81,16 +81,20 @@
         <style>
             .embed-container {
                 position: relative;
-                padding-bottom: 80%;
-                height: 0;
+                /*padding-bottom: 80%;*/
+                /*height: 0;*/
                 max-width: 100%;
+
+				padding-bottom: 0%;
+				height: 100%;
+
               }
               .embed-container iframe, .embed-container object, .embed-container iframe {
                 position: absolute;
                 top: 0;
                 left: 0;
                 width: 100%;
-                height: 75%;
+                height: 100%;
               }
               small {
                 position: absolute;
@@ -103,12 +107,12 @@
             <iframe width="100%" height="800px" src="https://ullragincajuns.maps.arcgis.com/apps/MapSeries/index.html?appid=aed8b848a1b04854b405af702c16ec28" frameborder="0" scrolling="no"></iframe>
         </div>
     </section>
-
+</body>
     <!-- Footer -->
     <footer>
         <div class="container text-center">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">Back to Top</a>
-            <p>Created by UL Lafayette Informatics Program in collaboration with CGI Federal</p>
+            <p><br>Created by UL Lafayette Informatics Program in collaboration with CGI Federal</p>
         </div>
     </footer>
 
@@ -123,6 +127,6 @@
     <!-- Custom scripts -->
     <script src="js/main.min.js"></script>
 
-</body>
+
 
 </html>
