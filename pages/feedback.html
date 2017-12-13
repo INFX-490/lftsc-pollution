@@ -65,20 +65,29 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>Feedback</h2>
-                    <div align="center">
-                        <a href="mailto:testingusername@outlook.com?subject=Lafayette Pollution site feedback.">Contact Us here</a>
-                        <p>Full Name: <input type="text" name="FullName" align="center"></p>
+                    <div align="left">
+					<form method="post" action="action.php">
+<p>Name</p> <input type="text" name="name">
+<p>Email</p> <input type="text" name="email">
 
-                        <p>Email Address: <input type="text" name="EmailAddress" align="center"></p>
+<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+<input type="submit" value="Send">
+</form>
+					
+					
+                       <!-- <form action="action.php" method="post">
+                        <p><input type="text" name="FullName" align="left" placeholder="Full Name" required></p>
 
-                        <p>Phone Number (Optional): <input type="text" name="Phone Number" align="center"></p>
+                        <p><input type="text" name="EmailAddress" align="left" placeholder="Email Address" required></p>
 
-                        <textarea rows="20" cols="60" name="comment" placeholder="Enter your feedback here..." form="usrform"> </textarea>
+                        <p><input type="text" name="Phone Number" align="left" placeholder="Phone Number (Optional)"></p>
+
+                        <p><textarea placeholder="Type your Message Here...." tabindex="5" required></textarea> </textarea></p>
 
                         <p>Please provide your feedback to our site.</p>
-                        <input type="submit" value="Submit" style="font-size : 50px" style="height:70px; width:70px">
+                        <input type="submit" value="Submit" style="font-size : 20px" style="height:70px; width:70px">
                         <p>Thank you for providing your feedback.</p>
-                        </form>
+                        </form>-->
                     </div>
                 </div>
             </div>
